@@ -1,0 +1,334 @@
+Oct 27 4:14pm
+
+Reply from Derek Wilkerson
+Submit 2
+ 
+
+Your preferred name: Derek
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? Because it mirrors real BI work, turning unstructured text into structured insight. Spotting which skills and tools dominate helps prioritize training, hiring, and tech stack decisions. 
+How might you go about it? Describe your process:   
+Collect all posts into a table (Name, Activities 1–3, Tool-to-learn).
+
+Normalize synonyms (e.g., “dashboard creation” → data visualization; “predictive analytics” → machine learning).
+
+Count frequencies of activities and tools.
+
+(Optional) Visualize with a simple bar chart.
+
+Document assumptions (ties, multi-tool answers).
+
+Estimate the most popular activities selected: Data Viz
+Tell us how you arrived at this answer: So far the posts listed, “data visualization” appears in 9 entries. “Data cleaning” and “data analysis” each appear in 6 entries.
+Estimate the most popular tool to learn: Tie between Power BI and Spark
+Tell us how you arrived at this answer: Counting explicit “Tool YOU want to learn” responses: Power BI (5), Apache Spark (5), Tableau (3), Python (2). One post listed “Power BI or Tableau,” which I counted for both. Normalized “Spark” → “Apache Spark.”
+-Derek
+
+ 
+
+Screenshot 2025-10-27 160901.jpgBI_Activities_BarChart_Wilkerson.png
+
+BI_Tools_BarChart_Wilkerson.png
+
+ 
+
+ 
+
+Reply to post from Derek WilkersonReply
+Mark as UnreadMark as Unread
+Bakhrom Botirov
+Oct 27 2:48pm
+
+Reply from Bakhrom Botirov
+Submit 1
+
+1. Your preferred name:
+Adam
+
+2. Your preferred activity 1:
+Data visualization
+
+3. Your preferred activity 2:
+Data transformation
+
+4. Your preferred activity 3:
+Dashboard creation
+
+5. Tool YOU want to learn:
+Tableau
+
+6. Why does this tool appeal to YOU for business intelligence:
+Tableau is powerful for building interactive dashboards and visualizing data patterns quickly. It connects easily to multiple data sources and helps communicate insights to non-technical audiences.
+
+7. Tool YOU don't want to learn now:
+Apache Hadoop
+
+8. Why does this tool not seem as important for YOU to learn right now:
+Hadoop focuses on large-scale distributed data processing. My current projects use smaller datasets, so mastering visualization and analytics tools is a higher priority.
+
+ 
+
+Submit 2
+
+1. Your preferred name:
+Adam
+
+2. Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists?
+It shows the ability to analyze qualitative data, detect patterns, and summarize trends, which are essential for BI decision-making.
+
+3. How might you go about it? Describe your process:
+I would scan the discussion posts, list all mentioned tools and activities, then count their frequency to identify the most discussed ones.
+
+4. Estimate the most popular activities selected:
+Data visualization and data analysis.
+
+5. Tell us how you arrived at this answer:
+Many posts mention visualization and analysis because these are key to presenting results clearly and supporting business decisions.
+
+6. Estimate the most popular tool to learn:
+Power BI.
+
+7. Tell us how you arrived at this answer:
+It appears frequently because it integrates with Microsoft products, is user-friendly, and widely used in organizations for BI reporting.
+
+ 
+
+Reply to post from Bakhrom BotirovReply
+Mark as UnreadMark as Unread
+VN
+Venkat Teja Nallamothu
+Oct 27 2:10pm
+
+Reply from Venkat Teja Nallamothu
+Your preferred name: Teja
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? This is valuable because it reflects a core part of what BI specialists do — analyzing unstructured data to uncover trends and insights. Being able to identify which tools or activities are gaining the most attention helps professionals and organizations stay aligned with current industry standards and skill demands. It’s essentially turning qualitative discussion data into actionable business intelligence.
+How might you go about it? Describe your process: I would gather all responses from the discussion into one document or spreadsheet. Then, I’d perform a keyword frequency analysis to count how often each activity and tool is mentioned. Tools like Python (using pandas and word frequency scripts) or Power BI could help visualize these trends. I might also look for patterns manually, grouping similar phrases (like “data visualization” and “dashboard creation”) to make the insights more accurate.
+Estimate the most popular activities selected: Data Cleaning and Data Visualization
+Tell us how you arrived at this answer: Many classmates emphasize data cleaning because messy data is one of the biggest challenges in real-world BI work. Data visualization also comes up often since it’s what makes insights understandable and shareable. These two activities are usually top priorities in both academic and professional BI projects.
+Estimate the most popular tool to learn: Power BI
+Tell us how you arrived at this answer: After reviewing multiple posts, Power BI appears to be the most frequently mentioned tool. It’s popular because it integrates smoothly with other Microsoft products and is widely used across organizations. Even though I personally want to learn Tableau, I can see why Power BI stands out as the most common choice among classmates.
+Reply to post from Venkat Teja NallamothuReply
+Mark as UnreadMark as Unread
+VN
+Venkat Teja Nallamothu
+Oct 27 2:07pm
+
+Reply from Venkat Teja Nallamothu
+Your preferred name: Teja
+Your preferred activity 1: Data Visualization
+Your preferred activity 2: Data Cleaning
+Your preferred activity 3: Predictive Analytics
+Tool YOU want to learn: Tableau
+Why does this tool appeal to YOU for business intelligence: Tableau appeals to me because it combines powerful visual analytics with user-friendly design. I like that it can connect directly to a wide range of data sources and that it’s highly interactive — making it easier to tell meaningful stories with data. In business contexts, visual communication often determines whether insights are acted upon, and Tableau helps bridge that gap. I’ve also noticed many employers value Tableau skills, which makes learning it professionally beneficial.
+Tool YOU don't want to learn now: Qlik Sense
+Why does this tool not seem as important for YOU to learn right now: While Qlik Sense is a solid BI tool, it’s less common in the environments I’m most interested in. Many organizations I’ve seen use Tableau or Power BI instead, so I’d rather focus my time on tools that align with those systems. Once I’m more comfortable with the mainstream BI platforms, I might explore Qlik later to expand my toolkit.
+Reply to post from Venkat Teja NallamothuReply
+Mark as UnreadMark as Unread
+Micah Emily
+Oct 27 12:18pm
+
+Reply from Micah Emily
+Your preferred name: Micah
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? Being able to determine the most popular activity and from this discussion could give insight or different perspective to what tools may be more widely used and what skills that may be more valued in the field.
+How might you go about it? Describe your process: Keep up to date with growing tools (Examples: Google Looker or Metabase), as well as researching what skills are being actively requested in relating positions. An example could be as looking for data of job listings and the required/preferred skills. Then, run a count of each instance. I actually did this for the final project in Data Visualization.
+Estimate the most popular activities selected: Data Cleaning
+Tell us how you arrived at this answer: I'm not quite sure if this is the most "Popular", but data cleaning is the most extensive and ongoing process of the activities. As well as the current climate of companies and relation to data bases is there is a lot of data but its messy, really messy.
+Estimate the most popular tool to learn: Power Bi or Apache Spark
+Tell us how you arrived at this answer: Reviewed the current responses, as well as from my experience several companies already have transitioned their reporting toward Power BI, and a good amount of jobs posting have Apache Spark as a requested skill.
+Reply to post from Micah EmilyReply
+Mark as UnreadMark as Unread
+Micah Emily
+Oct 27 11:58am
+
+Reply from Micah Emily
+Your preferred name: Micah Emily
+Your preferred activity 1: Machine Learning
+Your preferred activity 2: Data Analysis
+Your preferred activity 3: Real-Time Processing
+Tool YOU want to learn: Apache Spark
+Why does this tool appeal to YOU for business intelligence: From what I have seen a lot of companies make use of Spark, for a lot of its features mostly for is scalability paired with the other aspects such as its ability for real-time processing and large-scale analysis. Plus, it's one of the few tools I have yet learn/use.
+Tool YOU don't want to learn now: Shiny
+Why does this tool not seem as important for YOU to learn right now: Compared with the other tools it seems the most limited and least flexible. 
+Reply to post from Micah EmilyReply
+Mark as UnreadMark as Unread
+Sabri Hamdaoui
+Oct 27 11:55am
+
+Reply from Sabri Hamdaoui
+Your preferred name: sabri 
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? Because BI specialists often need to extract insights from unstructured text like survey comments, reviews, or discussion posts to identify trends or preferences.
+How might you go about it? Describe your process: I would collect all discussion responses in a single dataset, then use text-analysis techniques (for example, counting frequency of words like Power BI,Data Visualization, etc.  in Python or Excel. Finally, Id visualize the results in a simple bar chart to reveal which activities and tools appear most frequently.
+Estimate the most popular activities selected:  Data Visualization
+Tell us how you arrived at this answer: these are core BI activities that most beginners and professionals emphasize because they directly translate raw data into actionable insights and business decisions.
+Estimate the most popular tool to learn: Power BI
+Tell us how you arrived at this answer: Because it is easy and clear, and after reviewing some of the answers, I realized that it is the tool that will help many beginners to start projects.
+Reply to post from Sabri HamdaouiReply
+Mark as UnreadMark as Unread
+Sabri Hamdaoui
+Oct 27 11:49am
+
+Reply from Sabri Hamdaoui
+Your preferred name: sabri 
+Your preferred activity 1:Data Visualization
+Your preferred activity 2: Data Transformation
+Your preferred activity 3: Data Analysis & Reporting
+Tool YOU want to learn: Power BI
+Why does this tool appeal to YOU for business intelligence: Power BI is one of the most powerful and widely used BI tools for creating interactive dashboards and real-time visual reports. It allows users to connect to multiple data sources, transform and model data visually, and build meaningful KPIs for decision-making. I’m interested in learning it because it combines both analytical logic and strong visual storytelling, which are essential for professional BI analysts.
+Tool YOU don't want to learn now: Apache Spark
+Why does this tool not seem as important for YOU to learn right now: While Spark is excellent for handling large-scale distributed data, my current focus is on mastering the fundamentals of BI mainly analysis, visualization, and dashboard creation. Spark will be more relevant later when I handle big data environment
+Reply to post from Sabri HamdaouiReply
+Mark as UnreadMark as Unread
+RJ
+Reese Jamison
+Oct 27 11:27am
+
+Reply from Reese Jamison
+Your preferred name: Reese
+Your preferred activity 1: Machine Learning
+Your preferred activity 2: Real-Time Processing
+Your preferred activity 3: Integration
+Tool YOU want to learn: Microsoft Power BI
+Why does this tool appeal to YOU for business intelligence: Having raw data is great, but it doesn't do anyone any good without transforming it and adding the story telling piece. At the end of the day, raw data is just numbers. Having a tool for data transformation, analysis, and visualization actually makes the data useful. In my personal experience being in the engineering field, upper management and leadership doesn't care about raw data, they want the numbers to tell a story, or shown in a visual format that is easy to digest and make decisions. It sounds like Power BI is a great tool to do just this. 
+Tool YOU don't want to learn now: Looker
+Why does this tool not seem as important for YOU to learn right now: I do not work in Google Cloud, so alternatives would personally be better for me. Also, doing some research into Looker, it looks like the learning curve might be a little complex. I'd rather focus on other tools for now. 
+Reply to post from Reese JamisonReply
+Mark as UnreadMark as Unread
+OS
+Oluwafemi Salawu
+Oct 27 10:46am
+
+Reply from Oluwafemi Salawu
+Your preferred name: Femi
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? Being able to identify the most popular BI tools and activities from this discussion can help understand what the industry values and which skills are most in demand. This insight guides better career development and tool selection
+How might you go about it? Describe your process: I would actually start by reviewing the shared responses to identify repeated tools, activities, and patterns across the discussion. Then, I would group similar answers, count how often each tool or activity is mentioned, and compare the results to see which ones stand out the most. This approach helps me objectively determine popularity based on frequency rather than personal preference
+Estimate the most popular activities selected: First activities based on preferences in the discussion are Data Cleaning, and Data Visualization, follows by Data Analysis
+Tell us how you arrived at this answer: By reviewing the responses in the discussion
+Estimate the most popular tool to learn: Most popular tool to learn as per the discussion is Apache Spark
+Tell us how you arrived at this answer: By reviewing the responses in the discussion
+Reply to post from Oluwafemi SalawuReply
+Mark as UnreadMark as Unread
+Kimberly Hummel
+Oct 27 10:45am
+
+Reply from Kimberly Hummel
+Your preferred name: Kim Hummel 
+Your preferred activity 1: Data Analysis 
+Your preferred activity 2: Data Visualization 
+Your preferred activity 3: Data Transformation 
+Tool YOU want to learn: Power BI or Tableau
+Why does this tool appeal to YOU for business intelligence: It focuses on the data analysis/visualization which I like. Which tool is best seems to rely more on your data type/size and what you are trying to do with it. 
+Tool YOU don't want to learn now: Shiny
+Why does this tool not seem as important for YOU to learn right now: It says that it’s less intuitive and has a lower ease of use score than the other programs. It also has limited real - time processing.
+Reply to post from Kimberly HummelReply
+Mark as UnreadMark as Unread
+OS
+Oluwafemi Salawu
+Oct 27 10:29am
+
+Reply from Oluwafemi Salawu
+Your preferred name: Femi
+Your preferred activity 1: Data Collection
+Your preferred activity 2: Data Cleaning
+Your preferred activity 3: Data Transformation
+Tool YOU want to learn: Apache Spark and Python
+Why does this tool appeal to YOU for business intelligence: Apache Spark and Python are powerful for Business Intelligence because they allow organizations to handle large and complex datasets more efficiently than traditional BI tools. Python provides flexible data analysis, automation, and machine learning capabilities, while Spark enables fast, scalable processing across large data volumes that exceed Excel or desktop BI limits. Together, they support deeper analytics, real-time insights, and advanced decision-making that go beyond standard reporting dashboards.
+Tool YOU don't want to learn now: Looker (Google)
+Why does this tool not seem as important for YOU to learn right now: I do not find it appealing to learn Looker (Google) because, I believe many companies find Looker less appealing, the platform requires LookML, a proprietary modeling language that adds a learning curve and limits flexibility compared to SQL- or Python-based tools. It is also seen as more expensive than alternatives like Power BI or Tableau, making it harder for smaller or mid-sized companies to justify. In addition, Looker is tightly integrated with Google Cloud, which can be a drawback for organizations using other cloud ecosystems.
+Reply to post from Oluwafemi SalawuReply
+Mark as UnreadMark as Unread
+CB
+Christopher Braun
+Oct 27 8:40am
+
+Reply from Christopher Braun
+Your preferred name: Chris Braun
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? It would show the tool or tools that most people are willing to use and help steer me to using the tools that a probably majority of people would be using.
+How might you go about it? Describe your process: I would probably create some sort of table in excel to track responses, then count the number of responses and make a determination off the collected data. I'm not sure if I would need to weight the responses to give more bias towards someone's first choice over their third. The biggest downsides are that we would have a small sample size and the majority of us don't have tons of real-world experience, so our views may be skewed toward the open source tools because that is what we can easily afford to learn.
+Estimate the most popular activities selected: I'm going to guess the most popular activities will data analysis and data visualization.
+Tell us how you arrived at this answer: The simple answer is that data analysis and data visualization are what I believe this course to be about, so the majority of people in the class are probably interested in those two areas in their top three choices.
+Estimate the most popular tool to learn: I'm going to guess the answer for most popular tool will be PowerBI
+Tell us how you arrived at this answer: It is what the class is about and is the over-arching tool that we will be using. I feel that it is the easy answer for most students to choose and therefore may be the most likely answer.
+Reply to post from Christopher BraunReply
+Mark as UnreadMark as Unread
+CB
+Christopher Braun
+Oct 27 8:32am
+
+Reply from Christopher Braun
+Your preferred name: Chris Braun
+Your preferred activity 1: Machine Learning
+Your preferred activity 2: Data Analysis
+Your preferred activity 3: Data Visualization
+Tool YOU want to learn: I want to learn more about Spark and continue my learning in Python
+Why does this tool appeal to YOU for business intelligence: Both Spark and Python are open source and very powerful tools that are widely used.
+Tool YOU don't want to learn now: I don't know that there is a need for me to learn metabase.
+Why does this tool not seem as important for YOU to learn right now: It's not a tool that I've heard of and not one that I've seen widely used or in job descriptions.
+Reply to post from Christopher BraunReply
+Mark as UnreadMark as Unread
+Virginia Malik
+Oct 26 9:33pm
+
+Reply from Virginia Malik
+Your preferred name: Virginia Malik
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? that's what data analytics is all about.
+How might you go about it? Describe your process:  well, if there were more responses, I would probably create a SQL table or Excel spreadsheet, (it could be done with Python as well) and have it count and compare and create charts (which is fun).
+Estimate the most popular activities selected: /based on the 3 before me, Data Cleaning
+Tell us how you arrived at this answer: There's only 3, it wasn't difficult
+Estimate the most popular tool to learn:  If you include me, it's a tie, otherwise it's Apache Spark-apparently more Apple users than Windows - At the moment
+Tell us how you arrived at this answer:...........there are only 3 responses. 2 said Spark, the other was Power BI.  That's 2 to 1.  Simple math.
+Reply to post from Virginia MalikReply
+Mark as UnreadMark as Unread
+Virginia Malik
+Oct 26 9:26pm
+
+Reply from Virginia Malik
+Your preferred name: Virginia Malik
+Your preferred activity 1: Data Visualization
+Your preferred activity 2: Data Analysis
+Your preferred activity 3: Data Cleaning
+Tool YOU want to learn: Power BI
+Why does this tool appeal to YOU for business intelligence: It seems most widely used along with SQL
+Tool YOU don't want to learn now: I HATE Python, but I know I need to learn it...but I hate it.
+Why does this tool not seem as important for YOU to learn right now:  It IS important, I just hate it.
+Reply to post from Virginia MalikReply
+Mark as UnreadMark as Unread
+Kevin Hennelly
+Oct 26 7:54pm
+
+Reply from Kevin Hennelly
+Your preferred name: Kevin
+Your preferred activity 1: Data Cleaning 
+Your preferred activity 2: Data Visualization
+Your preferred activity 3: Scalability
+Tool YOU want to learn: Apache Spark
+Why does this tool appeal to YOU for business intelligence: Apache Spark seems to be one of the more widely used systems, so a practical understanding is likely to be beneficial across multiple businesses.  Its ability to handle large sets of data would be incredibly useful for the direction I want to head with data analytics - aviation safety or airspace design,
+Tool YOU don't want to learn now: Oracle BI
+Why does this tool not seem as important for YOU to learn right now:  Honestly, when I saw the last sentence that it might have a steeper learning curve for beginners I mentally put it towards the back of what I want to focus on.  I generally like to keep things as simple as possible, especially early on when almost everything presents some level of challenge. 
+Reply to post from Kevin HennellyReply
+Mark as UnreadMark as Unread
+Abdellah Boudlal
+Oct 26 4:02pm
+
+Reply from Abdellah Boudlal
+Your preferred name: Abdellah
+Your preferred activity 1: Data Cleaning.
+Your preferred activity 2: Data Analysis.
+Your preferred activity 3: Data Visualization.
+Tool YOU want to learn: Power BI
+Why does this tool appeal to YOU for business intelligence: Power BI is user-friendly and very visual. It works well with Microsoft tools and makes interactive dashboards. I think it is excellent  for data transformation, analysis, and visualization, and it will help me in real work to explain data to others
+Tool YOU don't want to learn now: SAS
+Why does this tool not seem as important for YOU to learn right now: SAS looks more advanced and used in big companies like healthcare and banking. It is harder to learn and not free. For now, it is better to first focus on open and easier tools like Power BI, Python, and SQL that I can use right now.
+Reply to post from Abdellah BoudlalReply
+Mark as UnreadMark as Unread
+Derek Wilkerson
+Oct 26 3:22pm
+
+Reply from Derek Wilkerson
+Your preferred name: Derek
+Your preferred activity 1: Data Collection
+Your preferred activity 2: Data Cleaning
+Your preferred activity 3: Real-Time Processing
+Tool YOU want to learn: Apache Spark
+Why does this tool appeal to YOU for business intelligence: Apache Spark appeals to me due to the fact that it supports large-scale data processing and real-time analytics. Learning Spark will also complement my growing skills in Python and position me to manage more complex workflows involving live or streaming data. 
+Tool YOU don't want to learn now: Oracle BI
+Why does this tool not seem as important for YOU to learn right now: It's not used in my current work environment. My focus is on tools that are more flexible, open-source, and widely integrated with platforms like Power BI, Python, and cloud-based environments. 
+-Derek

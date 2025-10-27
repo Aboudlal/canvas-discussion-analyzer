@@ -1,0 +1,154 @@
+name,activity_1,activity_2,activity_3,tool_not_now
+"Derek
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? Because it mirrors real BI work, turning unstructured text into structured insight. Spotting which skills and tools dominate helps prioritize training, hiring, and tech stack decisions. 
+How might you go about it? Describe your process: 
+Collect all posts into a table (Name, Activities 1–3, Tool-to-learn).
+
+Normalize synonyms (e.g., “dashboard creation” → data visualization; “predictive analytics” → machine learning).
+
+Count frequencies of activities and tools.
+
+(Optional) Visualize with a simple bar chart.
+
+Document assumptions (ties, multi-tool answers).
+
+Estimate the most popular activities selected: Data Viz
+Tell us how you arrived at this answer: So far the posts listed, “data visualization” appears in 9 entries. “Data cleaning” and “data analysis” each appear in 6 entries.
+Estimate the most popular tool to learn: Tie between Power BI and Spark
+Tell us how you arrived at this answer: Counting explicit “Tool YOU want to learn” responses: Power BI (5), Apache Spark (5), Tableau (3), Python (2). One post listed “Power BI or Tableau,” which I counted for both. Normalized “Spark” → “Apache Spark.”
+-Derek
+
+ 
+
+Screenshot 2025-10-27 160901.jpgBI_Activities_BarChart_Wilkerson.png
+
+BI_Tools_BarChart_Wilkerson.png
+
+Bakhrom Botirov
+Oct 27 2:48pm
+
+Reply from Bakhrom Botirov
+Submit 1
+
+1.",,,,
+"Adam
+
+2.","Data visualization
+
+3.","Data transformation
+
+4.","Dashboard creation
+
+5.","Apache Hadoop
+
+8."
+"Adam
+
+2. Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists?
+It shows the ability to analyze qualitative data, detect patterns, and summarize trends, which are essential for BI decision-making.
+
+3. How might you go about it? Describe your process:
+I would scan the discussion posts, list all mentioned tools and activities, then count their frequency to identify the most discussed ones.
+
+4. Estimate the most popular activities selected:
+Data visualization and data analysis.
+
+5. Tell us how you arrived at this answer:
+Many posts mention visualization and analysis because these are key to presenting results clearly and supporting business decisions.
+
+6. Estimate the most popular tool to learn:
+Power BI.
+
+7. Tell us how you arrived at this answer:
+It appears frequently because it integrates with Microsoft products, is user-friendly, and widely used in organizations for BI reporting.
+
+VN
+Venkat Teja Nallamothu
+Oct 27 2:10pm
+
+Reply from Venkat Teja Nallamothu",,,,
+"Teja
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? This is valuable because it reflects a core part of what BI specialists do — analyzing unstructured data to uncover trends and insights. Being able to identify which tools or activities are gaining the most attention helps professionals and organizations stay aligned with current industry standards and skill demands. It’s essentially turning qualitative discussion data into actionable business intelligence.
+How might you go about it? Describe your process: I would gather all responses from the discussion into one document or spreadsheet. Then, I’d perform a keyword frequency analysis to count how often each activity and tool is mentioned. Tools like Python (using pandas and word frequency scripts) or Power BI could help visualize these trends. I might also look for patterns manually, grouping similar phrases (like “data visualization” and “dashboard creation”) to make the insights more accurate.
+Estimate the most popular activities selected: Data Cleaning and Data Visualization
+Tell us how you arrived at this answer: Many classmates emphasize data cleaning because messy data is one of the biggest challenges in real-world BI work. Data visualization also comes up often since it’s what makes insights understandable and shareable. These two activities are usually top priorities in both academic and professional BI projects.
+Estimate the most popular tool to learn: Power BI
+Tell us how you arrived at this answer: After reviewing multiple posts, Power BI appears to be the most frequently mentioned tool. It’s popular because it integrates smoothly with other Microsoft products and is widely used across organizations. Even though I personally want to learn Tableau, I can see why Power BI stands out as the most common choice among classmates.
+
+VN
+Venkat Teja Nallamothu
+Oct 27 2:07pm
+
+Reply from Venkat Teja Nallamothu",,,,
+Teja,Data Visualization,Data Cleaning,Predictive Analytics,Qlik Sense
+"Micah
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? Being able to determine the most popular activity and from this discussion could give insight or different perspective to what tools may be more widely used and what skills that may be more valued in the field.
+How might you go about it? Describe your process: Keep up to date with growing tools (Examples: Google Looker or Metabase), as well as researching what skills are being actively requested in relating positions. An example could be as looking for data of job listings and the required/preferred skills. Then, run a count of each instance. I actually did this for the final project in Data Visualization.
+Estimate the most popular activities selected: Data Cleaning
+Tell us how you arrived at this answer: I'm not quite sure if this is the most ""Popular"", but data cleaning is the most extensive and ongoing process of the activities. As well as the current climate of companies and relation to data bases is there is a lot of data but its messy, really messy.
+Estimate the most popular tool to learn: Power Bi or Apache Spark
+Tell us how you arrived at this answer: Reviewed the current responses, as well as from my experience several companies already have transitioned their reporting toward Power BI, and a good amount of jobs posting have Apache Spark as a requested skill.
+
+Micah Emily
+Oct 27 11:58am
+
+Reply from Micah Emily",,,,
+Micah Emily,Machine Learning,Data Analysis,Real-Time Processing,Shiny
+"sabri 
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? Because BI specialists often need to extract insights from unstructured text like survey comments, reviews, or discussion posts to identify trends or preferences.
+How might you go about it? Describe your process: I would collect all discussion responses in a single dataset, then use text-analysis techniques (for example, counting frequency of words like Power BI,Data Visualization, etc. in Python or Excel. Finally, Id visualize the results in a simple bar chart to reveal which activities and tools appear most frequently.
+Estimate the most popular activities selected: Data Visualization
+Tell us how you arrived at this answer: these are core BI activities that most beginners and professionals emphasize because they directly translate raw data into actionable insights and business decisions.
+Estimate the most popular tool to learn: Power BI
+Tell us how you arrived at this answer: Because it is easy and clear, and after reviewing some of the answers, I realized that it is the tool that will help many beginners to start projects.
+
+Sabri Hamdaoui
+Oct 27 11:49am
+
+Reply from Sabri Hamdaoui",,,,
+sabri,Data Visualization,Data Transformation,Data Analysis & Reporting,Apache Spark
+Reese,Machine Learning,Real-Time Processing,Integration,Looker
+"Femi
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? Being able to identify the most popular BI tools and activities from this discussion can help understand what the industry values and which skills are most in demand. This insight guides better career development and tool selection
+How might you go about it? Describe your process: I would actually start by reviewing the shared responses to identify repeated tools, activities, and patterns across the discussion. Then, I would group similar answers, count how often each tool or activity is mentioned, and compare the results to see which ones stand out the most. This approach helps me objectively determine popularity based on frequency rather than personal preference
+Estimate the most popular activities selected: First activities based on preferences in the discussion are Data Cleaning, and Data Visualization, follows by Data Analysis
+Tell us how you arrived at this answer: By reviewing the responses in the discussion
+Estimate the most popular tool to learn: Most popular tool to learn as per the discussion is Apache Spark
+Tell us how you arrived at this answer: By reviewing the responses in the discussion
+
+Kimberly Hummel
+Oct 27 10:45am
+
+Reply from Kimberly Hummel",,,,
+Kim Hummel,Data Analysis,Data Visualization,Data Transformation,Shiny
+Femi,Data Collection,Data Cleaning,Data Transformation,Looker (Google)
+"Chris Braun
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? It would show the tool or tools that most people are willing to use and help steer me to using the tools that a probably majority of people would be using.
+How might you go about it? Describe your process: I would probably create some sort of table in excel to track responses, then count the number of responses and make a determination off the collected data. I'm not sure if I would need to weight the responses to give more bias towards someone's first choice over their third. The biggest downsides are that we would have a small sample size and the majority of us don't have tons of real-world experience, so our views may be skewed toward the open source tools because that is what we can easily afford to learn.
+Estimate the most popular activities selected: I'm going to guess the most popular activities will data analysis and data visualization.
+Tell us how you arrived at this answer: The simple answer is that data analysis and data visualization are what I believe this course to be about, so the majority of people in the class are probably interested in those two areas in their top three choices.
+Estimate the most popular tool to learn: I'm going to guess the answer for most popular tool will be PowerBI
+Tell us how you arrived at this answer: It is what the class is about and is the over-arching tool that we will be using. I feel that it is the easy answer for most students to choose and therefore may be the most likely answer.
+
+CB
+Christopher Braun
+Oct 27 8:32am
+
+Reply from Christopher Braun",,,,
+Chris Braun,Machine Learning,Data Analysis,Data Visualization,I don't know that there is a need for me to learn metabase.
+"Virginia Malik
+Why do YOU think being able to determine the most popular activity and tool from this discussion could be a valuable skill for business intelligence specialists? that's what data analytics is all about.
+How might you go about it? Describe your process: well, if there were more responses, I would probably create a SQL table or Excel spreadsheet, (it could be done with Python as well) and have it count and compare and create charts (which is fun).
+Estimate the most popular activities selected: /based on the 3 before me, Data Cleaning
+Tell us how you arrived at this answer: There's only 3, it wasn't difficult
+Estimate the most popular tool to learn: If you include me, it's a tie, otherwise it's Apache Spark-apparently more Apple users than Windows - At the moment
+Tell us how you arrived at this answer:...........there are only 3 responses. 2 said Spark, the other was Power BI. That's 2 to 1. Simple math.
+
+Virginia Malik
+Oct 26 9:26pm
+
+Reply from Virginia Malik",,,,
+Virginia Malik,Data Visualization,Data Analysis,Data Cleaning,"I HATE Python, but I know I need to learn it...but I hate it."
+Kevin,Data Cleaning,Data Visualization,Scalability,Oracle BI
+Abdellah,Data Cleaning.,Data Analysis.,Data Visualization.,SAS
+Derek,Data Collection,Data Cleaning,Real-Time Processing,Oracle BI
