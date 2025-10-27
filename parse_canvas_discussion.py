@@ -2,20 +2,6 @@
 """
 parse_discussion_minimal.py
 
-But: produire un CSV minimal depuis un copié-collé Canvas en gardant UNIQUEMENT:
-- prenom  (Prénom + initiale du nom)
-- activity_1
-- activity_2
-- activity_3
-- tool_not_now
-
-Le script supprime du texte source:
-- "Tool YOU want to learn:" et sa réponse
-- Les deux questions "Why..." et leurs réponses
-- Le bruit ("Reply to post...", "Mark as Unread", etc.)
-
-Usage:
-    python parse_discussion_minimal.py --in discussion.txt --out bi_discussion_minimal.csv
 """
 
 import argparse
@@ -23,7 +9,7 @@ import re
 import csv
 from pathlib import Path
 
-# Les SEULS labels qu'on veut dans le CSV
+# The ONLY labels we want in the CSV
 LABELS = [
     ("name",       r"Your\s+preferred\s+name\s*:"),
     ("activity_1",   r"Your\s+preferred\s+activity\s*1\s*:"),
@@ -32,17 +18,17 @@ LABELS = [
     ("tool_not_now", r"Tool\s+YOU\s+don'?t\s+want\s+to\s+learn\s+now\s*:"),
 ]
 
-# Ancre pour détecter chaque "bloc" (début d'un post)
+# Anchor to detect each "block" (start of a post)
 BLOCK_ANCHOR = re.compile(r"Your\s+preferred\s+name\s*:", re.IGNORECASE)
 
-# --------- Nettoyage du texte brut AVANT parsing ---------
+# --------- Cleanup of raw text BEFORE parsing ---------
 def clean_raw_text(raw: str) -> str:
     txt = raw
 
-    # 1) Supprimer "Reply to post..." / "Mark as Unread..." (lignes bruit)
+    #1) Remove "Reply to post..." / "Mark as Unread..." (noise lines)
     txt = re.sub(r"(?im)^\s*(Reply to post.*|Mark as Unread.*)\s*$", "", txt)
 
-    # 2) Supprimer "Why does this tool appeal..." + réponse
+    #2) Remove "Why does this tool appeal..." + answer
     txt = re.sub(
         r"Why\s+does\s+this\s+tool\s+appeal\s+to\s+YOU\s+for\s+business\s+intelligence\s*:.*?(?=(?:Your\s+preferred\s+name\s*:|Tool\s+YOU\s+don'?t\s+want\s+to\s+learn\s+now\s*:|$))",
         "",
@@ -50,7 +36,7 @@ def clean_raw_text(raw: str) -> str:
         flags=re.IGNORECASE | re.DOTALL,
     )
 
-    # 3) Supprimer "Why does this tool not seem..." + réponse
+    #3) Remove "Why does this tool not seem..." + answer
     txt = re.sub(
         r"Why\s+does\s+this\s+tool\s+not\s+seem\s+as\s+important\s+for\s+YOU\s+to\s+learn\s+right\s+now\s*:.*?(?=(?:Your\s+preferred\s+name\s*:|Tool\s+YOU\s+don'?t\s+want\s+to\s+learn\s+now\s*:|$))",
         "",
@@ -58,7 +44,7 @@ def clean_raw_text(raw: str) -> str:
         flags=re.IGNORECASE | re.DOTALL,
     )
 
-    # 4) Supprimer "Tool YOU want to learn:" + réponse jusqu'au prochain label utile
+    #4) Delete "Tool YOU want to learn:" + answer until the next useful label
     txt = re.sub(
         r"Tool\s+YOU\s+want\s+to\s+learn\s*:.*?(?=(?:Tool\s+YOU\s+don'?t\s+want\s+to\s+learn\s+now\s*:|Your\s+preferred\s+name\s*:|$))",
         "",
@@ -66,7 +52,7 @@ def clean_raw_text(raw: str) -> str:
         flags=re.IGNORECASE | re.DOTALL,
     )
 
-    # 5) Compresser les lignes vides multiples
+    #5) Compress multiple empty lines
     txt = re.sub(r"\n{3,}", "\n\n", txt)
     return txt.strip()
 
@@ -74,7 +60,7 @@ def _compile_label_patterns():
     return [(key, re.compile(pat, re.IGNORECASE)) for key, pat in LABELS]
 
 def format_name(raw_name: str) -> str:
-    """ 'Sara Sahel' -> 'Sara S' ; 'Micah' -> 'Micah' """
+
     parts = raw_name.strip().split()
     if len(parts) >= 2:
         return f"{parts[0]} {parts[1][0].upper()}"
@@ -82,7 +68,7 @@ def format_name(raw_name: str) -> str:
 
 def _extract_fields_from_block(text, label_patterns):
     results = {key: "" for key, _ in label_patterns}
-    # Trouver les labels PRÉSENTS dans ce bloc
+    # Find the labels PRESENT in this block
     occurrences = []
     for key, rx in label_patterns:
         m = rx.search(text)
@@ -90,7 +76,7 @@ def _extract_fields_from_block(text, label_patterns):
             occurrences.append((m.start(), m.end(), key))
     occurrences.sort(key=lambda x: x[0])
 
-    # Extraire la valeur entre ce label et le prochain label détecté
+    # Extract the value between this label and the next detected label
     for i, (start, end, key) in enumerate(occurrences):
         val_start = end
         val_end = occurrences[i+1][0] if i + 1 < len(occurrences) else len(text)
