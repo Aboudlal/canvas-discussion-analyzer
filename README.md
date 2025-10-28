@@ -1,5 +1,5 @@
 # 🎓 Canvas Discussion Analyzer
-
+![Discussion Analysis](images/plot.png)
 This project extracts **structured CSV data** from Canvas Discussions for **Business Intelligence (BI)**.  
 It removes irrelevant text (like *"Why does this tool appeal..."*) and keeps only the essential fields:
 
