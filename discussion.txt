@@ -9,7 +9,7 @@ Why do YOU think being able to determine the most popular activity and tool from
 How might you go about it? Describe your process:   
 Collect all posts into a table (Name, Activities 1–3, Tool-to-learn).
 
-Normalize synonyms (e.g., “dashboard creation” → data visualization; “predictive analytics” → machine learning).
+Normalize synonyms  (e.g., “dashboard creation” → data visualization; “predictive analytics” → machine learning).
 
 Count frequencies of activities and tools.
 

@@ -11,7 +11,7 @@ Fields extracted (case-insensitive labels in source text):
 - activity_2          -> "Your preferred activity 2:"
 - activity_3          -> "Your preferred activity 3:"
 - tool_not_now        -> "Tool YOU don't want to learn now:"
-- tool_want_now       -> "Tool YOU want to learn:"
+- tool_want_now       -> "Tool YOU want to learn: "
 """
 
 import argparse
