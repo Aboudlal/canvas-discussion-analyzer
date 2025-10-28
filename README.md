@@ -1,102 +1,94 @@
-project: 📊 Canvas Discussion Analyzer
-author: Abdellah Boudlal
-repo: https://github.com/Aboudlal/canvas-discussion-analyzer
+# 🎓 Canvas Discussion Analyzer
 
-overview: |
-  This project extracts structured CSV data from Canvas Discussions for Business Intelligence (BI).
-  It removes irrelevant text (like "Why does this tool appeal…") and keeps only:
-    - 👤 Student name (First + Last initial)
-    - 📝 Activity 1, Activity 2, Activity 3
-    - 🛠️ Tool you don’t want to learn now
-  The output is a clean CSV file ready for analysis with Python (pandas/matplotlib) or Power BI (DAX).
+This project extracts **structured CSV data** from Canvas Discussions for **Business Intelligence (BI)**.  
+It removes irrelevant text (like *"Why does this tool appeal..."*) and keeps only the essential fields:
 
-quick_start: |
-  # Clone the repo
-  git clone https://github.com/Aboudlal/canvas-discussion-analyzer.git
-  cd canvas-discussion-analyzer
+- 👤 **Student name** (First + Last initial)  
+- 📝 **Activity 1, Activity 2, Activity 3**  
+- 🛠️ **Tool you don’t want to learn now**  
 
-  # Install dependencies
-  pip install -r requirements.txt
+The output is a **clean CSV file** ready for analysis with **Python (pandas/matplotlib)** or **Power BI (DAX)**.
 
-  # Run the parser (example)
-  python parse_discussion_minimal.py --in discussion.txt --out bi_discussion_submissions.csv
+---
 
-installation:
-  prerequisites:
-    - Python 3.10 or later
-    - Git (optional)
-  steps:
-    - git clone https://github.com/Aboudlal/canvas-discussion-analyzer.git
-    - cd canvas-discussion-analyzer
-    - pip install -r requirements.txt
+## 🚀 Quick Start
 
-usage:
-  step_1_prepare_input: |
-    Copy the full Canvas discussion into a plain text file named "discussion.txt".
-    Place it in the project root folder.
-  step_2_run_parser:
-    windows: python parse_discussion_minimal.py --in discussion.txt --out bi_discussion_submissions.csv
-    linux: python3 parse_discussion_minimal.py --in discussion.txt --out bi_discussion_submissions.csv
-    macos: python3 parse_discussion_minimal.py --in discussion.txt --out bi_discussion_submissions.csv
-    note: On Linux/macOS, use `python3` instead of `python` if Python 2 is also installed.
-  step_3_open_notebook: |
-    jupyter notebook bi_discussion_analysis.ipynb
-  step_4_optional_powerbi: |
-    Import bi_discussion_submissions.csv into Power BI to create dashboards.
-    Example DAX queries are provided inside the notebook and README.
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Aboudlal/canvas-discussion-analyzer.git
+cd canvas-discussion-analyzer
+```
 
-project_structure: |
-  canvas-discussion-analyzer/
-  ├─ parse_discussion_minimal.py     # parser script
-  ├─ bi_discussion_analysis.ipynb    # Jupyter notebook for analysis
-  ├─ discussion.txt                  # raw input file
-  ├─ bi_discussion_submissions.csv   # clean output CSV
-  ├─ requirements.txt                # Python dependencies
-  ├─ run.bat                         # one-click run on Windows
-  └─ README.yaml                     # documentation
+### 2️⃣ Create and activate a virtual environment
 
-requirements:
-  - pandas >= 2.0
-  - matplotlib >= 3.7
-  - jupyter >= 1.0
+**Windows (PowerShell)**
+```bash
+python -m venv venv
+.
+env\Scripts ctivate
+```
 
-example_commands:
-  windows: 
-  ### python parse_canvas_discussion.py --in discussion.txt --out bi_discussion_submissions.csv
-  linux:
-  ### python3 parse_canvas_discussion.py --in discussion.txt --out bi_discussion_submissions.csv
-  macos: 
-  ### python3 parse_canvas_discussion.py --in discussion.txt --out bi_discussion_submissions.csv
-  notebook: jupyter notebook bi_discussion_analysis.ipynb
+**Mac/Linux**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
+### 3️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
+---
 
+## ▶️ Run the Parser
 
+Prepare your input file:
 
+1. Copy the full Canvas discussion into a plain text file named **`discussion.txt`**.  
+2. Place it in the **project root folder**.  
 
+Then run the parser:
 
+**Windows**
+```bash
+python parse_canvas_discussion.py --in discussion.txt --out bi_discussion_submissions.csv
+```
 
+**Linux / macOS**
+```bash
+python3 parse_canvas_discussion.py --in discussion.txt --out bi_discussion_submissions.csv
+```
 
+---
 
+## 📊 Analyze the Data
 
+Once the CSV file is created (**bi_discussion_submissions.csv**), you can analyze it using **Jupyter Notebook**:
 
+```bash
+jupyter notebook bi_discussion_analysis.ipynb
+```
 
-license: |
-  MIT License
+Inside the notebook, you’ll find examples to:
+- 📌 Count the most popular **activities selected**  
+- 📌 Count the most popular **tools to learn**
+- 📌 Count the most popular **tools not to learn now**  
+- 📊 Create bar charts and visualizations
+- Dynamic Storytelling Conclusion
 
-  Copyright (c) 2025 Abdellah Boudlal
+---
 
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to deal
-  in the Software without restriction, including without limitation the rights
-  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
+## 🔗 Useful Links
 
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-  THE SOFTWARE.
+- 👨‍💻 GitHub Profile: [https://github.com/Aboudlal](https://github.com/Aboudlal)  
+- 📂 Project Repository: [https://github.com/Aboudlal/canvas-discussion-analyzer](https://github.com/Aboudlal/canvas-discussion-analyzer)  
+
+---
+
+## 🛡️ Notes
+
+- Make sure you do **not push your `venv/` folder** to GitHub (already excluded in `.gitignore`).  
+- You only need to share the **code, requirements, and notebooks**.  
+
+✨ Built with passion for **Data Analytics & Business Intelligence** ✨
