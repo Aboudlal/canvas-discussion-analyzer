@@ -29,3 +29,12 @@ __pycache__/
 # Jupyter Notebook (basic ignore)
 # ----------------------------------------
 .ipynb_checkpoints
+# ----------------------------------------
+# Python: bytecode, build artifacts
+# ----------------------------------------
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd

@@ -1,6 +1,30 @@
 name,activity_1,activity_2,activity_3,tool_not_now,tool_want_now
-Derek W,,,,, 
-Adam 2,"Data visualization
+Molly ,,,,,
+Molly ,Integration,Data Cleaning,Machine Learning,Shiny,Python
+MoW,,,,,
+MO,Data Visualization,Data Analysis,Real Time Processing,Metabase.,Apache Spark
+Sandra ,Data Visualization,Data Transformation,Data Reporting,Hadoop,Power BI
+Sandra ,,,,,
+Karli ,,,,,
+Karli ,Data Cleaning,Data Transformation,Data Visualization,"Shiny.",Apache Spark
+Reese ,,,,,
+Agnes ,,,,,
+Agnes,Data collection,Data analysis,Data visualization,Shiny,Power BI
+Kaitlin W,,,,,
+Becky W,,,,,
+Kaitlin,Data Analysis,Data visualization,Data transformation,"Apache Spark.","Tableau."
+Becky,Data collection,Data Cleaning,Data Transformation =,PowerBI,SAS
+Lynzie ,,,,,
+Abdellah ,,,,,
+Steve ,Data Collection,Data Cleaning,Data Analysis,Oracle BI,Apache Spark 
+Lynzie,Data Visualization,Data Cleaning,Real-Time Processing,Apache Spark,Power BI
+Kim ,,,,,
+Keiko,Data Analysis,Data Visualization,Data Cleaning,Shiny,"Python "
+Jackson ,Data Analysis,Data Visualization,Machine Learning,"python",Power BI
+Tiffany ,,,,,
+Tiffany,Data Visualization,Data Transformation,Data Analysis,Apache Spark,Power BI.
+Derek ,,,,
+Adam ,"Data visualization
 
 3.","Data transformation
 
@@ -11,21 +35,21 @@ Adam 2,"Data visualization
 8.","Tableau
 
 6."
-Adam 2,,,,,
-Teja W,,,,,
+Adam ,,,,,
+Teja ,,,,,
 Teja,Data Visualization,Data Cleaning,Predictive Analytics,Qlik Sense,Tableau
-Micah W,,,,,
-Micah E,Machine Learning,Data Analysis,Real-Time Processing,Shiny,Apache Spark
-sabri W,,,,,
+Micah ,,,,,
+Micah ,Machine Learning,Data Analysis,Real-Time Processing,Shiny,Apache Spark
+sabri ,,,,,
 sabri,Data Visualization,Data Transformation,Data Analysis & Reporting,Apache Spark,Power BI
 Reese,Machine Learning,Real-Time Processing,Integration,Looker,Microsoft Power BI
 Femi W,,,,,
-Kim H,Data Analysis,Data Visualization,Data Transformation,Shiny,Power BI or Tableau
-Femi,Data Collection,Data Cleaning,Data Transformation,Looker (Google),Apache Spark and Python
-Chris B,,,,,
-Chris B,Machine Learning,Data Analysis,Data Visualization,I don't know that there is a need for me to learn metabase.,I want to learn more about Spark and continue my learning in Python
-Virginia M,,,,,
-Virginia M,Data Visualization,Data Analysis,Data Cleaning,"I HATE Python, but I know I need to learn it...but I hate it.",Power BI
+Kim ,Data Analysis,Data Visualization,Data Transformation,Shiny,Power BI or Tableau
+Femi,Data Collection,Data Cleaning,Data Transformation,Looker ,Apache Spark 
+Chris ,,,,,
+Chris ,Machine Learning,Data Analysis,Data Visualization,metabase.,Apache Spark
+Virginia ,,,,,
+Virginia,Data Visualization,Data Analysis,Data Cleaning,"Python.",Power BI
 Kevin,Data Cleaning,Data Visualization,Scalability,Oracle BI,Apache Spark
 Abdellah,Data Cleaning.,Data Analysis.,Data Visualization.,SAS,Power BI
 Derek,Data Collection,Data Cleaning,Real-Time Processing,Oracle BI,Apache Spark
